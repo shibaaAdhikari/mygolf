@@ -1,0 +1,32 @@
+.mv__block {
+  line-height: 0;
+}
+
+.mv__title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 99px;
+  color: var(--color-white);
+  text-align: right;
+  font-family: var(--font-secondary);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: 7.68px;
+}
+@media (max-width: 767px) {
+  .mv__title {
+    right: unset;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8.533vw;
+    letter-spacing: 0.683vw;
+    line-height: 10.667vw;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+}/*# sourceMappingURL=top.css.map */
