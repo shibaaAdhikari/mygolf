@@ -239,6 +239,7 @@ table {
 
 .img-fluid {
     max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -259,17 +260,27 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.container-sm {
+     max-width: 1150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-.l-section {
+
+
+
+.l-section{
     padding-block: 120px;
-
-    @media (max-width:767px) {
+    @media  (max-width:767px){
         padding-block: 64px;
     }
 }
 
 
-.section-header {
+.section-header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -278,40 +289,45 @@ body {
     margin-bottom: 64px;
 
     @media (max-width:767px) {
-        margin-bottom: 24px;
+        margin-bottom: 6.4vw;
     }
 
-    &__eng {
+    &__eng{
         color: var(--primary-color);
         font-family: var(--font-secondary);
         font-size: 40px;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 3.2px;
-
         @media (max-width:767px) {
-            font-size: 32px;
-            letter-spacing: 2.56px;
+            font-size: 8.533vw;
+            letter-spacing: 0.683vw;
+        }
+        &.-white{
+            color: var(--color-white);
         }
     }
 
-    &__jp {
+    &__jp{
         color: var(--primary-color);
         font-family: var(--font-primary);
         font-size: 16px;
         font-weight: 600;
-        line-height: 28px;
-        /* 175% */
+        line-height: 28px; /* 175% */
         letter-spacing: 0.64px;
-
         @media (max-width:767px) {
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.56px;
+            font-size: 3.733vw;
+            line-height: 4.267vw; 
+            letter-spacing: 0.149vw;
+        }
+        &.-white{
+            color: var(--color-white);
         }
     }
-}
 
+
+
+}
 // header
 .header {
     position: fixed;
@@ -319,9 +335,8 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    @media (max-width:767px) {
-        z-index: 1010;
-    }
+      z-index: 1010;
+  
 
     &__wrapper {
         display: flex;
