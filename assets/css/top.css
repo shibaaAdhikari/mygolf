@@ -189,6 +189,18 @@
   background-color: var(--color-white1);
 }
 
+.concept__txt.hover-text {
+  display: none;
+}
+
+.concept__col:hover .concept__txt.default {
+  display: none;
+}
+
+.concept__col:hover .concept__txt.hover-text {
+  display: block;
+}
+
 .common__button {
   display: flex;
   align-items: center;
