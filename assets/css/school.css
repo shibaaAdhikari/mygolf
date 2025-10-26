@@ -1,0 +1,9 @@
+.school__information {
+  background-color: var(--color-gray);
+}
+.school__information-block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 123px;
+}/*# sourceMappingURL=school.css.map */

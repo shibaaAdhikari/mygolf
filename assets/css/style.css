@@ -768,6 +768,59 @@ body {
   background-image: url("../img/common/icon-downarrow.svg");
 }
 
+.info__card {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-block: 16px;
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+}
+.info__card.black {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+.info__card.black .dot {
+  background: var(--primary-color);
+}
+.info__card .dot {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--color-white);
+  flex-shrink: 0;
+}
+.info__date {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 1.12px;
+  max-width: 120px;
+  width: 120px;
+}
+.info__content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.info__text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.12px;
+}
+
 .footer {
   background: var(--color-gray);
   color: #fff;
