@@ -287,7 +287,7 @@
         font-family: var(--font-secondary);
         font-size: 14px;
         font-weight: 500;
-        line-height: normal;
+        line-height: 17px;
         letter-spacing: 1.12px;
         @media (max-width:767px) {
             font-size: 2.667vw;
@@ -299,7 +299,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        margin-top: 8px;
+        margin-block: 8px;
     }
 
     &__txt{
